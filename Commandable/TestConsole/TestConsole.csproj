@@ -47,5 +47,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Commandable\Commandable.csproj">
+      <Project>{489277a4-8180-4a59-97fd-03e63edbd2fe}</Project>
+      <Name>Commandable</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
